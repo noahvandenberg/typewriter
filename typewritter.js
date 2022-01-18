@@ -9,7 +9,7 @@ for (let i = 0; i < sentence.length; i++) {
     if (i === sentence.length - 1) {
       process.stdout.write('\n');
     }
-  },delay)
+  },delay);
   //console.log(sentence[i])
   delay += 50;
 }
